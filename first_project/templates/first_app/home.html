@@ -1,0 +1,17 @@
+<!doctype html>
+{% extends "first_app/base.html" %}
+{% block body_block %}
+
+    <div class="jumbotron">
+        <h1>Welcome to first_app/home.html</h1>
+    </div>
+
+    <div class="container">
+        <h1>{{ text | cut:"world"}}</h1>
+    </div>
+
+    <div class="container">
+        <h1>{{ number | add:"99"}}</h1>
+    </div>
+
+{% endblock %}

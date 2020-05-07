@@ -1,0 +1,25 @@
+.container {
+/* falllback for browsers that do not support vh */
+    /*min-height: 100%;
+ /*These two are counted as one
+    min-height: 100vh;*/
+    display: flex;
+    align-items: center;
+
+
+}
+
+.col-md-8 {
+    background-image: url("https://scx1.b-cdn.net/csz/news/800/2019/oaktree.jpg");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+}
+/*
+h1{
+  color: blue;
+}
+*/
+.djangotwo, td, th {
+  border: 2px double black;
+}
+

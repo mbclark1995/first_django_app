@@ -1,0 +1,21 @@
+<!doctype html>
+{% extends "first_app/base.html" %}
+{% block body_block %}
+
+<h1>Here are your users:</h1>
+
+    {% if users%}
+
+    <ol>
+      {% for person in users %}
+      <li>User Info</li>
+        <ul>
+          <li>First Name: {{person.first_name}}</li>
+          <li>Last Name: {{person.last_name}}</li>
+          <li>Email: {{person.email_address}}</li>
+        </ul>
+        {% endfor %}
+    </ol>
+    {% endif %}
+
+{% endblock %}
